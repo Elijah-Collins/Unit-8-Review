@@ -7,8 +7,8 @@
       Review Assignment
 
       DLR Morning Schedule
-      Author: 
-      Date:   
+      Author: Elijah Collins
+      Date:   11/20/19
 
       Filename:   dlr_mornings.html
 
@@ -18,7 +18,9 @@
    <meta name="viewport" content="width=device-width, initial-scale=1" />
    <title>DLR Morning Schedule</title>
    <link href="dlr_reset2.css" rel="stylesheet" />
-   <link href="dlr_styles2.css" rel="stylesheet" />         
+   <link href="dlr_styles2.css" rel="stylesheet" />
+   <link href="dlr_tables2_txt.css" rel="stylesheet" />     
+   <link href="dlr_columns2_txt.css" rel="stylesheet" />    
 </head>
 
 <body>
@@ -48,7 +50,40 @@
             5:00 a.m. to 10:30 p.m. <br />You can <a href="#">Listen Live</a> to streaming audio 
             of our broadcast or download programs from our <a href="#">Podcast</a>. 
             <br />Please refer below for our current morning schedule.</p>
+            <table class="programs">
 
+            </table>
+            <table-caption>All Times Central</table-caption>
+            <colgroup>
+               <col class="timeColumn"></col>
+               <col class="wDayColumns" colspan="5"></col>
+               <col class="wEndColumns" colspan="2"></col>
+            </colgroup>
+            <thead>
+               <tr>
+                  <th>Time</th>
+                  <td>Sunday</td>
+                  <td>Monday</td>
+                  <td>Tuesday</td>
+                  <td>Wednesday</td>
+                  <td>Thursday</td>
+                  <td>Friday</td>
+                  <td>Saturday</td>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+               <th>5:00</th>
+                  <td rowspan=”4”>Dawn Air</td>
+               </tr>
+               <tr></tr>
+               <tr></tr>
+               <tr></tr>
+               <tr></tr>
+               </tbody>
+            <tfoot>
+               <td colspan="8">Support your Public Radio Station.</td>
+            </tfoot>
       </section>
       
    </div>
